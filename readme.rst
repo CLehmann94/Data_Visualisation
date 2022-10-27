@@ -11,10 +11,12 @@ The usage is quite simple and designed to be expanded at any time. Scripts that 
 
 Example use
 -----------
-Within a Python 3.7 (or upwards) environment with the dependencies installed (see below), a simple function call executes the script, e.g.:
+Within a Python 3.7 (or upwards) environment with the dependencies installed (see below), a simple function call executes the script, e.g.::
 
-$ python3 Age_hist.py ./example_data/example_table.ascii
+  $ python3 Age_hist.py ./example_data/example_table.ascii
 
+Scripts
+-------
 Age_hist.py     -> An age histogram for stars. It displays both the whole set of stars as well as only metal rich stars ([Fe/H] > 0.2).
 Lz_age.py       -> The age against the angular momentum (Lz) on an x-y diagram with only metal rich stars. There are running medians through the top and bottom half of the panel to point out the double structure in the diagram.
 Lz_feh.py       -> The metallicity against the angular momentum (Lz) on an x-y diagram with 4 panels. Each panel has running medians through the top and bottom half of the panels. The panels are displaying sets of stars at different age; top left: 0-4 Gyrs, top right: 4-8 Gyrs, bottom right: 8-12 Gyrs, bottom right: all ages.
@@ -25,5 +27,5 @@ vR_vT.py        -> The radial and tangential velocity components on an x-y plot 
 
 
 Dependencies
-------------
+============
 matplotlib, numpy, os, seaborn, sys
