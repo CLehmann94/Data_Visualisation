@@ -1,8 +1,6 @@
-|Python| |GitHub| 
-
 Data Visualisation Python scripts
 =================================
-A collection of data visualisation sripts written in Python towards the end of my PhD. They are focused on visualising the age, metallicity and kinematic components of stars with a focus on metal rich solar analogues. 
+A collection of data visualisation scripts written in Python towards the end of my PhD. They are focused on visualising the age, metallicity and kinematic components of stars with a focus on metal rich solar analogues. 
 
 
 Usage
@@ -23,11 +21,11 @@ Lz_age.py       -> The age against the angular momentum (Lz) on an x-y diagram w
 
 Lz_feh.py       -> The metallicity against the angular momentum (Lz) on an x-y diagram with 4 panels. Each panel has running medians through the top and bottom half of the panels. The panels are displaying sets of stars at different age; top left: 0-4 Gyrs, top right: 4-8 Gyrs, bottom right: 8-12 Gyrs, bottom right: all ages.
 
-Lz_hist.py      -> A histogram of angular momentum of stars within the Milky Way. The top panel shows these histrograms by metallicity and the bottom panel (metal rich stars only) splits by stellar age.
+Lz_hist.py      -> A histogram of angular momentum of stars within the Milky Way. The top panel shows these histograms by metallicity and the bottom panel (metal rich stars only) splits by stellar age.
 
-R_peri_hist.py  -> A histogram of perihelion radii of stars within the Milky Way. The top panel shows these histrograms by metallicity and the bottom panel (metal rich stars only) splits by stellar age.
+R_peri_hist.py  -> A histogram of perihelion radii of stars within the Milky Way. The top panel shows these histograms by metallicity and the bottom panel (metal rich stars only) splits by stellar age.
 
-Toomre.py       -> A Toomre digram (tangential velocity component on the x-axis against the combined non-tangential velocity components on the y-axis). The diagram is split into four panels, each displaying a different metallicity range of stars.
+Toomre.py       -> A Toomre diagram (tangential velocity component on the x-axis against the combined non-tangential velocity components on the y-axis). The diagram is split into four panels, each displaying a different metallicity range of stars.
 
 vR_vT.py        -> The radial and tangential velocity components on an x-y plot with contours to signify the density of stars.
 
