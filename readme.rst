@@ -32,4 +32,7 @@ vR_vT.py        -> The radial and tangential velocity components on an x-y plot 
 
 Dependencies
 ============
-matplotlib, numpy, os, seaborn, sys
+matplotlib 3.1.1 
+numpy 1.17.2
+os 0.1.1
+seaborn 0.9.0
